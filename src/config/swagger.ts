@@ -11,7 +11,7 @@ export const setupSwagger = (app: Express) => {
         version: "1.0.0",
         description: "API for generating QR codes and related utilities",
       },
-      servers: [{ url: "http://localhost:3000" }],
+      servers: [{ url: "https://qrcode-api-nij4.onrender.com" }],
     },
     apis: ["./src/routes/**/*.ts"], // Adjust this path if routes are elsewhere
   };
